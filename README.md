@@ -6,7 +6,22 @@ Table of Contents
 4. Permissions
 
 #### Naming Conventions
-- TBD
+- example: usp_API_RecordListGet
+type:
+- usp (user stored proc)
+- udf (user definted function)
+app:
+- API
+- SSIS
+- AM (admin)
+- DJC (djcity.com)
+function (What the function is for and what the function does.  see below examples)
+- RecordListGet
+- RecordDetailUpdate
+- RecordDetailGet
+- RecordDetailInsert
+- CustomerAPIPasswordGet
+- etc...
 
 #### Locks
 - Instead of using “with nolock” on each table, you can just put this in the beginning of the stored procedure and it applies nolock to all tables in that proc:
