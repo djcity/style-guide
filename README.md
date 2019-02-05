@@ -7,15 +7,15 @@ Table of Contents
 
 #### Naming Conventions
 - example: usp_API_RecordListGet
---type:
+1: type
 - usp (user stored proc)
 - udf (user definted function)
---app:
+2: app
 - API
 - SSIS
 - AM (admin)
 - DJC (djcity.com)
---function (What the function is for and what the function does.  see below examples):
+3: function (What the function is for and what the function does.  see below examples)
 - RecordListGet
 - RecordDetailUpdate
 - RecordDetailGet
