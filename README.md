@@ -6,7 +6,7 @@ Table of Contents
 4. Permissions
 
 #### Naming Conventions
-- example: usp_API_RecordListGet
+example: usp_API_RecordListGet
 1: type
 - usp (user stored proc)
 - udf (user definted function)
